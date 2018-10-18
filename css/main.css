@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Georgia, sans-serif;
   line-height: 1.5;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
@@ -10,7 +11,6 @@ html {
 
 h1, h2 {
   font-family: "Sigmar One", sans-serif;
-
 }
 
 h1 {
@@ -32,21 +32,24 @@ ul {
 
 li {
   display: inline-block;
+}
+
+.nav a {
   text-decoration: none;
   color: #fff;
   margin-bottom: .3em;
   padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
+  display: inline-block;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-li:hover {
+.nav a:hover {
   background-color: #cc1465;
+}
+
+.nav .current {
+  background-color: #b20953;
 }
 
 header {
