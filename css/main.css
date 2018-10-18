@@ -17,12 +17,12 @@ h1 {
   margin: 0;
   font-size: 3rem;
   text-align: center;
-  color: #cc1465;
+  color: #b20953;
 }
 
 h2 {
   font-size: 1.875rem;
-  color: #cc1465;
+  color: #b20953;
 }
 
 ul {
@@ -44,7 +44,7 @@ li {
   display: inline-block;
 }
 
-.nav a:hover {
+a:hover {
   background-color: #cc1465;
 }
 
