@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: "Sigmar One", sans-serif;
+
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+  color: #cc1465;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 1.875rem;
+  color: #cc1465;
+  margin: .3em;
+}
+
+ul {
+  text-align: center;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: .3em;
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:hover {
+  background-color: #cc1465;
+}
+
+header {
+  display: block;
+  padding: 0;
+  background-color: #ffe500;
+}
+
+footer {
+  display: block;
+  background: #ffe500;
+  margin: 0;
+  padding: .2em .5em .3em;
+}
+
+.berry {
+  text-align: center;
+  font-size: .75rem;
+}
+
+main {
+  display: block;
+  margin: .3em;
+
+}
+
+body {
+  margin: 0;
+}
+
+.intro {
+  display: block;
+  padding: .75em 0;
+  font-size: 1.125rem;
+}
+
+p {
+  display: block;
+  text-align: left;
+  margin: .6em;
+}
