@@ -14,7 +14,6 @@ h1, h2 {
 }
 
 h1 {
-  display: block;
   margin: 0;
   font-size: 3rem;
   text-align: center;
@@ -22,10 +21,8 @@ h1 {
 }
 
 h2 {
-  display: inline-block;
   font-size: 1.875rem;
   color: #cc1465;
-  margin: .3em;
 }
 
 ul {
@@ -37,7 +34,7 @@ li {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  margin: .3em;
+  margin-bottom: .3em;
   padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
@@ -72,8 +69,7 @@ footer {
 
 main {
   display: block;
-  margin: .3em;
-
+  padding: 0 .75em;
 }
 
 body {
@@ -90,4 +86,9 @@ p {
   display: block;
   text-align: left;
   margin: .6em;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
